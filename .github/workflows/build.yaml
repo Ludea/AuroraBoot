@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - build_windows_macos 
 
 jobs:
   build:
